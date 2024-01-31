@@ -49,6 +49,7 @@
     
 .first_content{
     display: block;
+    margin-top: 12vw;
 }
 .header_logo img{
     width: 175px;
