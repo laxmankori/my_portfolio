@@ -11,9 +11,17 @@ if (nav.style.height === "60vw") {
 }else{
     nav.style.height = "60vw";
     nav.style.transition = "all ease 0.5s";
-    link.style.display = "block"
+    // link.style.display = "block"
 
 }
+
+setTimeout(() => {
+    if (nav.style.height === "60vw") {
+        link.style.display = "block"
+        
+    }
+    
+}, 450);
 // nav.style.height = "60vw";
 nav.style.alignItems = "baseline";
 nav.style.paddingTop = "5vw";

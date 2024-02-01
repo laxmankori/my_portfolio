@@ -142,14 +142,53 @@ nav{
     color: white;
 }
 
-section{
+.experties{
     width: 100%;
-    height: 80vw;
-    background-color: black;
+    height: 136vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* .header_logo{
-    width: 25%;
-    height: 60%;
-    border-radius: 50%;
-    background-color: red;
-} */
+
+.section_container{
+    width: 80%;
+    height: 100vh;
+}
+.experties_heading h3{
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+.experties_boxs{
+    width: 90%;
+    height: 75%;
+    margin: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.experties_box:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.experties_box{
+    width: 50%;
+    padding: 2vw;
+    transition: all linear 0.3s;
+    border-bottom: 0.1px solid rgb(125, 125, 125);
+}
+#border-right{
+    border-right: 0.1px solid rgb(125, 125, 125);
+}
+#border-right-bottom{
+    border-right: 0.1px solid rgb(125, 125, 125); 
+    border-bottom: none;
+}
+.experties_box h4{
+    font-size:1.5vw;
+}
+
+.experties_box p{
+    font-size: 1.1vw;
+    margin: 1vw 0;
+    width: 30vw;
+}
