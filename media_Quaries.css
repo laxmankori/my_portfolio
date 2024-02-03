@@ -104,4 +104,28 @@
     margin: 3vw 0;
     width: 100%;
 }
+#work_container{
+    margin-top: 60vw;
+}
+.border-round{
+    margin: 10vw 0;
+}
+
+.work_button{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+    margin: 150vw 0;
+}
+.work_button button{
+width: 15vw;
+height: 5vw;
+border-radius: 2vw;
+border: 1px solid #FF8B5E;
+color: #FF8B5E;
+font-size: 2vw;
+background: transparent;
+transition: all ease 0.5s;
+}
 }
