@@ -135,4 +135,7 @@ font-size: 2vw;
 background: transparent;
 transition: all ease 0.5s;
 }
+.animation::before{
+    height: 130%;
+}
 }
