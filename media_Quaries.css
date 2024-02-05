@@ -1,3 +1,10 @@
+
+:root{
+    --main_color: #FFCE32;
+    --second_color: #1D63FF;
+}
+
+
 @media screen and (max-width: 768px) {
     .logo h1{
         font-size: 4vw;
@@ -122,8 +129,8 @@
 width: 15vw;
 height: 5vw;
 border-radius: 2vw;
-border: 1px solid #FF8B5E;
-color: #FF8B5E;
+border: 1px solid var(--second_color);
+color: black;
 font-size: 2vw;
 background: transparent;
 transition: all ease 0.5s;
