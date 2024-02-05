@@ -123,16 +123,16 @@ nav{
     color: black;
     font-weight: 400;
     margin-bottom: 2vw;
-    line-height: 1.2;
+    line-height: 1;
 }
 .header_content h4{
     font-size: 2vw;
     font-weight: 400;
     line-height: 1.2;
 }
-.header_content span{
+/* .header_content span{
 color: var(--second_color);
-}
+} */
 
 .second_content{
     display: flex;
@@ -161,6 +161,39 @@ color: var(--second_color);
     font-size: 4vw;
     color: black;
 }
+.laxman{
+    color: var(--second_color);
+}
+.animation{
+    position: relative;
+    font-size: 4vw;
+    width: 74%;
+    color: black;
+    -webkit-text-stroke: .03vw #383d52;
+    /* text-transform: uppercase; */
+}
+.animation::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 125%;
+    color: var(--second_color);
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid var(--second_color);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0% ,10%, 100%{
+        width: 0;
+    } 
+    70%, 90%{
+        width: 100%;
+    }
+}
+
 
 .experties{
     width: 100%;
