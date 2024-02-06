@@ -38,6 +38,7 @@
         position: relative;
     top: 12vw;
     right: 9vw;
+    text-align: center;
     }
     .links ul li a{
         font-size: 4vw;
@@ -142,6 +143,6 @@ transition: all ease 0.5s;
 
 @media screen and (max-width:320px) {
     .animation{
-        width: 94%;
+        width: 100%;
     }
 }
