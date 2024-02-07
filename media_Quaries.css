@@ -80,6 +80,14 @@
     text-align: start;
     margin-top: 4vw;
 }
+.experties{
+    width: 100%;
+    height: 190vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
 .experties_boxs{
     width: 90%;
     height: 75%;
@@ -112,9 +120,6 @@
     margin: 3vw 0;
     width: 100%;
 }
-#work_container{
-    margin-top: 60vw;
-}
 .border-round{
     margin: 10vw 0;
 }
@@ -138,6 +143,40 @@ transition: all ease 0.5s;
 }
 .animation::before{
     height: 130%;
+}
+#service{
+    height: 150vw;
+}
+.contact_boxs{
+    display: block;
+}
+.contact_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_icon{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: var(--second_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_icon i{
+    font-size: 6.2vw;
+    color: white;
+}
+.contact_box h5{
+    font-size: 3.5vw;
+    margin: 4vw 0;
+}
+.contact_box p{
+    font-size: 3.1vw;
+    color: var(--second_color);
+    text-align: center;
 }
 }
 
