@@ -149,7 +149,7 @@ transition: all ease 0.5s;
 }
 .contact_boxs{
     display: block;
-    height: 130%;
+    height: 225vw;
 }
 .contact_box{
     width: 100%;
