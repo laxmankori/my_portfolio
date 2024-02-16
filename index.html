@@ -8,16 +8,18 @@
     <title>Laxman's Portfolio</title>
   </head>
   <body>
+    <div class="staring">
+      <a href="#home"><i class="fa-solid fa-arrow-turn-up"></i></a>
+    </div>
     <nav id="nav">
       <div class="logo">
         <h1>Laxman</h1>
       </div>
       <div class="links" id="link">
         <ul>
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#work_container">Work</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#work_container">Project</a></li>
           <li><a href="#service">Services</a></li>
-          <li><a href="#">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -34,7 +36,7 @@
       </div>
     </nav>
 
-    <header>
+    <header id="home">
       <div class="container">
         <div class="content">
           <div class="first_content">
@@ -69,56 +71,10 @@
         </div>
       </div>
     </header>
-    <!-- 
-    <section class="experties" >
-      <div class="section_container">
-        <div class="experties_heading">
-          <h3>My Experties</h3>
-        </div>
-        <div class="experties_boxs">
-          <div class="experties_box"  id="border-right">
-            <img src="Assets/asset 4.svg" alt="" >
-            <h4>Strategy & Direction</h4>
-            <p>
-              Understand First. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
-          </div>
-          <div class="experties_box">
-            <img src="Assets/asset 5.svg" alt="" >
-            <h4>Strategy & Direction</h4>
-            <p>
-              Understand First. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
-          </div>
-          <div class="experties_box" id="border-right-bottom">
-            <img src="Assets/asset 6.svg" alt="" >
-            <h4>Strategy & Direction</h4>
-            <p>
-              Understand First. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
-          </div>
-          <div class="experties_box" style="border-bottom: none;">
-            <img src="Assets/asset 7.svg" alt="" >
-            <h4>Strategy & Direction</h4>
-            <p>
-              Understand First. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <section class="experties" id="work_container">
       <div class="section_container">
         <div class="experties_heading">
-          <h3>My Works</h3>
+          <h3>My Projects</h3>
         </div>
         <div class="experties_boxs">
           <div
@@ -241,13 +197,17 @@
           </div>
           <div class="contact_details">
             <div class="contact_inputs">
-            <form action="">
-              <input type="text" name="name" id="" placeholder="Your Name">
-              <input type="email" name="name" id="" placeholder="Your Email">
-              <input type="text" name="subject" id="" placeholder="Subject">
-              <textarea name="text" id="" cols="30" rows="10" placeholder="Massage"></textarea>
-                <button type="submit" class="input_btn"> Send Massage</button>
-            </form>
+           <form action="">
+            <div class="n_inputs">
+              <input type="text" name="name" id="" placeholder="YOUR NAME">
+              <input type="email" name="email" id="" placeholder="YOUR EMAIL">
+            </div>
+            <input type="text" name="text" id="" placeholder="YOUR SUBJECT" class="sub">
+            <textarea name="massage" id="" cols="10" rows="5" placeholder="YOUR MASSAGE"></textarea>
+            <div class="contact_button">
+              <button type="submit">Send Massage</button>
+            </div>
+           </form>
           </div>
           </div>
       </div>

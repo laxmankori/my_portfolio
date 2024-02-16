@@ -212,6 +212,9 @@ form textarea{
     height: 8vw;
     font-size: 2.8vw;
 } 
+.staring{
+    display: none;
+}
 }
 
 @media screen and (max-width:376px) {

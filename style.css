@@ -12,6 +12,20 @@
     --second_color: #1D63FF;
 }
 
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-track{
+    background-color: #FFFFFF;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--second_color);
+    border-radius: 1rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -83,7 +97,6 @@ nav {
     box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
     transition: all ease 0.5s;
 }
-
 .links ul {
     display: flex;
     gap: 2vw;
@@ -109,7 +122,24 @@ nav {
 .menu {
     display: none;
 }
-
+.staring{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    position: fixed;
+    background-color: var(--second_color);
+    z-index: 99;
+    right: 30px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.staring i{
+    color: white;
+    font-size: 1.5vw;
+}
 .container {
     /* background-image: url(Assets/asset\ 18.png); */
     background-color: var(--main_color);
@@ -433,36 +463,43 @@ color: var(--second_color);
     width: 50%;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
     border-radius: 20px;
+    padding: 2vw;
 }
 
-form {
+.n_inputs{
     display: flex;
-    flex-direction: column;
-    gap: 1vw;
-    align-items: center;
-    padding: 3vw 0;
+    justify-content: space-between;
+    width: 100%;
 }
-
-form input,
-textarea {
-    width: 50%;
+.n_inputs input{
+    width: 17vw;
     height: 3vw;
-    border-radius: 5px;
-    padding: 0px 10px;
-    border: 1px solid grey;
-    font-size: 1vw;
+    border: 1px solid black;
+    padding: 0vw 1vw;
+    border-radius: 7vw;
 }
-
-form textarea {
-    max-width: 50%;
-    max-height: 5vw;
-    border-radius: 5px;
-    padding: 10px 10px;
-    border: 1px solid grey;
-    font-size: 1vw;
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
-
-.input_btn {
+.sub{
+    padding: 0vw 1vw;
+    height: 3vw;
+    margin: 2vw 0px;
+    border-radius: 7vw;
+    border: 1px solid;
+}
+form textarea{
+    border-radius: 2vw;
+    padding: 1vw 1vw;
+    border: 1px solid black;
+    max-height: 8rem;
+}
+.contact_button{
+    margin: 2vw 1vw;
+}
+.contact_button button {
     width: 9vw;
     height: 3vw;
     border-radius: 2vw;
@@ -470,13 +507,6 @@ form textarea {
     background-color: var(--second_color);
     color: white;
     font-size: 1vw;
-    transition: all ease 0.5s;
     cursor: pointer;
-    margin-top: 1vw;
-}
-
-.input_btn:hover {
-    background-color: white;
-    color: #1D63FF;
-    border: 2px solid var(--second_color);
+    transition: all ease 0.5s;
 }
