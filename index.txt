@@ -1,0 +1,41 @@
+<section class="experties" id="service">
+      <div class="section_container">
+        <div class="experties_heading">
+          <h3>Services</h3>
+        </div>
+        <div class="experties_boxs">
+          <div class="experties_box" id="border-right">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h5>Web design</h5>
+            <p>
+              Understand First. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit, sed do eiusmod tempor
+            </p>
+          </div>
+          <div class="experties_box">
+            <i class="fa-solid fa-code"></i>
+            <h5>Web developer</h5>
+            <p>
+              Understand First. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit, sed do eiusmod tempor
+            </p>
+          </div>
+          <div class="experties_box" id="border-right-bottom">
+            <i class="fa-solid fa-code"></i>
+            <h5>Web developer</h5>
+            <p>
+              Understand First. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit, sed do eiusmod tempor
+            </p>
+          </div>
+          <div class="experties_box" style="border-bottom: none">
+            <i class="fa-solid fa-code"></i>
+            <h5>Web developer</h5>
+            <p>
+              Understand First. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit, sed do eiusmod tempor
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
