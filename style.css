@@ -486,6 +486,7 @@ form{
 }
 form textarea{
     border-radius: 2vw;
+    max-width: 100%;
     padding: 1vw 1vw;
     border: 1px solid black;
     max-height: 8rem;
