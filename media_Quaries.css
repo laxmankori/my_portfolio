@@ -147,7 +147,6 @@ transition: all ease 0.5s;
 }
 .contact_boxs{
     display: block;
-    height: 225vw;
 }
 .contact_box{
     width: 100%;
@@ -180,7 +179,6 @@ transition: all ease 0.5s;
 }
 .contact_inputs{
     width: 100%;
-    padding: 8vw 0;
 }
 form{
     display: flex;
@@ -188,22 +186,6 @@ form{
     gap: 5vw;
     align-items: center;
     padding: 5vw 0;
-}
-form input, textarea{
-    width: 80%;
-    height: 8vw;
-    border-radius: 5px;
-    padding: 0px 10px;
-    border: 1px solid grey;
-    font-size: 2.8vw;
-}
-form textarea{
-    max-width: 80%;
-    max-height: 20vw;
-    border-radius: 5px;
-    padding: 0px 10px;
-    border: 1px solid grey;
-    font-size: 3vw;
 }
 .input_btn{
     width: 25vw;
@@ -221,8 +203,104 @@ form textarea{
     width: 80vw;
     height: 80vw;
 }
+form{
+    padding: 5vw;
+    align-items: baseline;
+    gap: 3vw;
+}
+.n_inputs{
+    gap: 4vw;
+    flex-direction: column;
+}
+.n_inputs input{
+    width: 100%;
+    height: 7vw;
+    padding: 0 4vw;
+}
+.sub{
+    padding: 0 4vw;
+    width: 100%;
+    height: 7vw;
+}
+form textarea{
+    padding: 2vw 4vw;
+    width: 100%;
+}
+.contact_button button {
+    width: 20vw;
+    height: 7vw;
+    border-radius: 10vw;
+    border: none;
+    background-color: var(--second_color);
+    color: white;
+    font-size: 2.2vw;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.footer_container{
+    width: 100%;
+    margin: 3vw 0;
+    padding: 0 3vw;
+    flex-direction: column;
+  }
+  .footer_content {
+    width: 100%;
+}
+  .footer_content h1{
+    font-size: 7vw;
+}
+  .footer_content p{
+    font-size: 4.25vw;
+    line-height: 5.8vw;
+}
+.footer_right{
+width: 100%;
+}
+.sm_icon{
+    display: flex;
+    width: 7.5vw;
+    height: 7vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.sm_icon i{
+    font-size: 3vw;
+}
+.copy{
+    font-size: 1vw;
+}
+.footer_buttons{
+    flex-direction: column;
+    align-items: baseline;
+    gap: 4vw;
+}
+.footer_buttons button{
+    width: 30vw;
+    height: 10vw;
+    border-radius: 12vw;
 }
 
+#cv{
+    width: 35vw;
+    height: 10vw;
+    border-radius: 12vw;
+}
+#copyR{
+    font-size: 3vw; 
+    margin: 7vw 0;
+}
+.footer_buttons button a{
+    font-size: 3.5vw;
+}
+.footer_link ul a{
+    font-size: 4vw;
+}
+.footer_link ul{
+    gap: 5vw;
+}
+}
 @media screen and (max-width:376px) {
     .animation{
         width: 83%;

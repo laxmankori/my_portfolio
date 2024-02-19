@@ -408,7 +408,6 @@ color: var(--second_color);
 .contact_boxs {
     display: flex;
     gap: 3vw;
-    height: 50%;
     justify-content: center;
 }
 
@@ -451,7 +450,6 @@ color: var(--second_color);
 }
 
 .contact_details {
-    height: 50%;
     display: flex;
     justify-content: center;
 }
@@ -569,3 +567,80 @@ form textarea{
   .service_container{
     width: 80%;
   }
+  footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vw;
+    padding-top: 2vw;
+  }
+
+  .footer_container{
+    width: 80vw;
+    display: flex;
+    margin: 3vw 0;
+  }
+  .footer_container h1{
+    color: var(--main_color);
+  }
+  .footer_content{
+    width: 50%;
+  }
+  .footer_container p{
+    color: white;
+    margin: 2vw 0;
+  }
+  .socialmedia_icons{
+    display: flex;
+    gap: 1vw;
+}
+.footer_right{
+    width: 50%;
+}
+.sm_icon{
+    display: flex;
+    width: 2.5vw;
+    height: 2vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.footer_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.footer_buttons button{
+    width: 9vw;
+    height: 3vw;
+    border-radius: 2vw;
+    border: none;
+    background-color: var(--second_color);
+    font-size: 1vw;
+    /* background: transparent; */
+    transition: all ease 0.5s;
+    cursor: pointer;
+} 
+.footer_buttons a{
+    color: #FFFFFF;
+}
+#cv{
+    background: transparent;
+    border: 2px solid white;
+    width: 11vw;
+}
+.footer_link{
+    padding-top: 11.5vw;
+    padding-left:11vw;
+}
+.footer_link a{
+    color: white;
+}
+.footer_link ul{
+    text-align: center; 
+    display: flex;
+    gap: 2vw;
+}
