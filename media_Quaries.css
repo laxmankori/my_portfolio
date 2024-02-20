@@ -142,9 +142,6 @@ transition: all ease 0.5s;
 .animation::before{
     height: 130%;
 }
-#service{
-    height: 150vw;
-}
 .contact_boxs{
     display: block;
 }
