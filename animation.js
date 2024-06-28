@@ -25,7 +25,7 @@ tl.from(".header_logo img",{
 },"-=1")
 
 tl.from(".design, .massage,.phone_no",{
-    y:300,
+    y:50,
     duration:1,
     opacity:0,
     stagger:0.15
